@@ -10,11 +10,7 @@ class Solution:
 
             for i in range(pos + 1, 10):
                 if i <= target:
-                    curr.append(i)
-                    dfs(i, curr, target - i)
-                    curr.pop()
-                else:
-                    return
+                    dfs(i, curr + [i], target - i)
 
         dfs(0, [], n)
         return res
