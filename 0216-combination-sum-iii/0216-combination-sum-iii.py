@@ -13,6 +13,8 @@ class Solution:
                     curr.append(i)
                     dfs(i, curr, target - i)
                     curr.pop()
+                else:
+                    return
 
         dfs(0, [], n)
         return res
