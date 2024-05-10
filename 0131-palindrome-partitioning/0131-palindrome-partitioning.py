@@ -9,8 +9,9 @@ class Solution:
                 return
 
             for j in range(i, len(s)):
-                if self.isPali(s, i, j):
-                    part.append(s[i : j + 1])
+                item = s[i : j + 1]
+                if self.isPali(item):
+                    part.append(item)
                     dfs(j + 1)
                     part.pop()
 
@@ -18,11 +19,9 @@ class Solution:
 
         return res
 
-    def isPali(self, s: str, l: int, r: int):
-        while l < r:
-            if s[l] != s[r]:
+    def isPali(self, s: str):
+        l = len(s)
+        for i in range(l // 2):
+            if s[i] != s[l - 1 - i]:
                 return False
-
-            l, r = l + 1, r - 1
-
         return True
