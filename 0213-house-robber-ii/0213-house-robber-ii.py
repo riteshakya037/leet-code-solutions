@@ -3,13 +3,17 @@ class Solution:
         if not nums:
             return 0
         
-        return max(nums[0], self.helper(nums[1:]), self.helper(nums[:-1]))   
+        if len(nums) == 1:
+            return nums[0]
+        
+        return max(self.helper(nums[1:]), self.helper(nums[:-1]))   
     
     def helper(self, nums: List[int]) -> int:
-        rob1, rob2 = 0, 0
-        for n in nums:
-            newRob = max(rob1 + n, rob2)
-            rob1 = rob2
-            rob2 = newRob
-        
-        return rob2
+        n = len(nums)
+        dp = [0] * (n + 1)
+        dp[1] = nums[0]
+
+        for i in range(2, n + 1):
+            dp[i] = max(dp[i - 2] + nums[i - 1], dp[i - 1])
+
+        return dp[n]
