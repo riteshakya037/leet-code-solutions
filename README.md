@@ -1,7 +1,14 @@
-🌟 Excited to kickstart my coding journey on LeetCode! 🚀
+# Two Pointers
+|  |
+| ------- |
+| [0647-palindromic-substrings](https://github.com/riteshakya037/leet-code-solutions/tree/master/0647-palindromic-substrings) |
 
-Join me as I tackle easy problems and work my way up to more complex ones, aiming to sharpen my skills and make a meaningful impact in the tech world.
 
-![image](https://github.com/riteshakya037/leet-code-solutions/assets/9533579/6f4d5d7a-7fd7-4a46-8b39-2380355aff60)
-
-Link to [Medium Article](https://www.riteshakya.com.np/posts/a-leetcode-daily-series-introduction).
+# String
+|  |
+| ------- |
+| [0647-palindromic-substrings](https://github.com/riteshakya037/leet-code-solutions/tree/master/0647-palindromic-substrings) |
+# Dynamic Programming
+|  |
+| ------- |
+| [0647-palindromic-substrings](https://github.com/riteshakya037/leet-code-solutions/tree/master/0647-palindromic-substrings) |
