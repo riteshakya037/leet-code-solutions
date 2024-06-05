@@ -11,11 +11,13 @@
 # Dynamic Programming
 |  |
 | ------- |
+| [0416-partition-equal-subset-sum](https://github.com/riteshakya037/leet-code-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0647-palindromic-substrings](https://github.com/riteshakya037/leet-code-solutions/tree/master/0647-palindromic-substrings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/riteshakya037/leet-code-solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
 # Array
 |  |
 | ------- |
+| [0416-partition-equal-subset-sum](https://github.com/riteshakya037/leet-code-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/riteshakya037/leet-code-solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
 # Binary Indexed Tree
 |  |
