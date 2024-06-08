@@ -1,11 +1,9 @@
 class Solution:
     def canPartitionKSubsets(self, nums: List[int], k: int) -> bool:
         n = len(nums)
+        target, rem = divmod(sum(nums), k)
         nums.sort(reverse=True)
-        total = sum(nums)
-        target = total / k
-        
-        if total % k or nums[0] > target:
+        if rem or nums[0] > target:
             return False
         
         used = [False] * n
