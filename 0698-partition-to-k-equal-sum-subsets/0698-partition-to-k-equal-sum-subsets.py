@@ -5,31 +5,29 @@ class Solution:
         nums.sort(reverse=True)
         if rem or nums[0] > target:
             return False
-        
-        used = [False] * n
-        
-        def dfs(index, total, k): 
-            
-            if k == 0:
+
+        def dfs(index, total, groups):
+            if groups == k - 1:
                 return True
-            
-            if total == 0:
-                return dfs(0, target, k - 1)
-            
-            for i in range(index, n):
-                
-                if i > 0 and not used[i - 1] and nums[i] == nums[i - 1]:
-                    continue
-                    
-                if used[i] or total - nums[i] < 0:
-                    continue
-                
-                used[i] = True
-                if dfs(i + 1, total - nums[i], k):
-                    return True
-                used[i] = False
-            return False
-        
-        return dfs(0, target, k)
+            if index == n:
+                return False
+
+            num = nums[index]
+            if num > total:
+                return dfs(index + 1, total, groups)
+
+            nums[index] = target + 1
+            if num == total:
+                return dfs(0, target, groups + 1)
+
+            if dfs(index + 1, total - num, groups):
+                return True
+
+            nums[index] = num
+            return dfs(index + 1, total, groups)
+
+        return dfs(0, target, 0)
+
+
 
 
