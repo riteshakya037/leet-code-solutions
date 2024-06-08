@@ -3,11 +3,11 @@ class Solution:
         n = len(nums)
         nums.sort(reverse=True)
         total = sum(nums)
+        target = total / k
         
-        if total % k:
+        if total % k or nums[0] > target:
             return False
         
-        target = total / k
         used = [False] * n
         
         def dfs(index, total, k): 
