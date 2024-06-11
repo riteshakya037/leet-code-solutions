@@ -1,5 +1,7 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
+        if len(prices) < 2:
+            return 0
         dp = {}
 
         def dfs(i, buying):
