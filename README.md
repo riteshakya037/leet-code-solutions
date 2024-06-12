@@ -2,6 +2,7 @@
 |  |
 | ------- |
 | [0647-palindromic-substrings](https://github.com/riteshakya037/leet-code-solutions/tree/master/0647-palindromic-substrings) |
+| [0142-linked-list-cycle-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0142-linked-list-cycle-ii) |
 
 
 # String
@@ -47,3 +48,11 @@
 |  |
 | ------- |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/riteshakya037/leet-code-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
+# Hash Table
+|  |
+| ------- |
+| [0142-linked-list-cycle-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0142-linked-list-cycle-ii) |
+# Linked List
+|  |
+| ------- |
+| [0142-linked-list-cycle-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0142-linked-list-cycle-ii) |
