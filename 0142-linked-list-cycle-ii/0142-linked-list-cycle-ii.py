@@ -4,8 +4,11 @@
 #         self.val = x
 #         self.next = None
 
+
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if not head or not head.next:
+            return None
         slow, fast = head, head
         while fast and fast.next:
             slow = slow.next
@@ -18,7 +21,7 @@ class Solution:
 
         pointer = head
         while pointer != fast:
-            pointer =  pointer.next
+            pointer = pointer.next
             fast = fast.next
 
         return pointer
