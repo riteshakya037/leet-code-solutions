@@ -7,21 +7,15 @@
 
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        if not head or not head.next:
-            return None
-        slow, fast = head, head
+        slow , fast  = head ,head
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
-
-            if slow == fast:
-                break
-        else:
-            return None
-
-        pointer = head
-        while pointer != fast:
-            pointer = pointer.next
-            fast = fast.next
-
-        return pointer
+            if slow == fast: 
+                temp1 = head
+                temp2 = slow
+                while temp1 != temp2:
+                    temp1 = temp1.next
+                    temp2 = temp2.next
+                return temp1
+        return None
