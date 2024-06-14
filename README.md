@@ -55,4 +55,13 @@
 # Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/0002-add-two-numbers) |
 | [0142-linked-list-cycle-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0142-linked-list-cycle-ii) |
+# Math
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/0002-add-two-numbers) |
+# Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/0002-add-two-numbers) |
