@@ -7,33 +7,25 @@ class Solution:
     def addTwoNumbers(
         self, l1: Optional[ListNode], l2: Optional[ListNode]
     ) -> Optional[ListNode]:
+        dummy = ListNode()
+        curr = dummy
 
-        def linked_list_to_num(node):
-            num = 0
-            count = 1
-            while node:
-                num += node.val * count
-                count = count * 10
-                node = node.next
-            return num
+        carry = 0
+        while l1 or l2:
+            v1 = l1.val if l1 else 0
+            v2 = l2.val if l2 else 0
 
-        def num_to_linked_list(num):
-            finalh = ListNode(-1)
-            helper = finalh
+            val = v1 + v2 + carry
 
-            while num != 0:
-                helper.next = ListNode(num % 10)
-                num = num // 10
-                helper = helper.next
-            return finalh
+            carry = val // 10
+            val = val % 10
+            curr.next = ListNode(val)
 
-        num1 = linked_list_to_num(l1)
-        num2 = linked_list_to_num(l2)
+            curr = curr.next
+            l1 = l1.next if l1 else None
+            l2 = l2.next if l2 else None
 
-        result = num1 + num2
-        if result == 0:
-            return ListNode(0)
+        if carry:
+            curr.next = ListNode(carry)
 
-        finalh = num_to_linked_list(result)
-
-        return finalh.next
+        return dummy.next
