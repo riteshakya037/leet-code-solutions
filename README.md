@@ -3,6 +3,7 @@
 | ------- |
 | [0647-palindromic-substrings](https://github.com/riteshakya037/leet-code-solutions/tree/master/0647-palindromic-substrings) |
 | [0142-linked-list-cycle-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0142-linked-list-cycle-ii) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 
 
 # String
@@ -57,6 +58,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/0002-add-two-numbers) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0142-linked-list-cycle-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0142-linked-list-cycle-ii) |
 # Math
 |  |
