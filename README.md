@@ -23,6 +23,7 @@
 |  |
 | ------- |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/riteshakya037/leet-code-solutions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
+| [0330-patching-array](https://github.com/riteshakya037/leet-code-solutions/tree/master/0330-patching-array) |
 | [0416-partition-equal-subset-sum](https://github.com/riteshakya037/leet-code-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0502-ipo](https://github.com/riteshakya037/leet-code-solutions/tree/master/0502-ipo) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/riteshakya037/leet-code-solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
@@ -74,6 +75,7 @@
 # Greedy
 |  |
 | ------- |
+| [0330-patching-array](https://github.com/riteshakya037/leet-code-solutions/tree/master/0330-patching-array) |
 | [0502-ipo](https://github.com/riteshakya037/leet-code-solutions/tree/master/0502-ipo) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/riteshakya037/leet-code-solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
 # Sorting
