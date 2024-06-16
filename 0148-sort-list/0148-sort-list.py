@@ -5,21 +5,41 @@
 #         self.next = next
 class Solution:
     def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-  
-        dummy = ListNode(0)
-        dummy.next = head
-        curr = dummy.next
+        if not head or not head.next:
+            return head
+        left = head
+        right = self.getMid(head)
+        temp = right.next
+        right.next = None
+        right = temp
 
-        lst = []
-        while curr:
-            lst.append(curr.val)
-            curr = curr.next
+        left = self.sortList(left)
+        right = self.sortList(right)
 
-        lst.sort()
+        return self.merge(left, right)
 
-        curr = dummy.next
-        for v in lst:
-            curr.val = v
-            curr = curr.next
+    def getMid(self, head: ListNode):
+        slow, fast = head, head.next
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+        return slow
+
+    def merge(self, left: ListNode, right: ListNode):
+        tail = dummy = ListNode()
+
+        while left and right:
+            if left.val < right.val:
+                tail.next = left
+                left = left.next
+            else:
+                tail.next = right
+                right = right.next
+            tail = tail.next
+
+        if left:
+            tail.next = left
+        if right:
+            tail.next = right
 
         return dummy.next
