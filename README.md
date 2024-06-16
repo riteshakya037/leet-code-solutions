@@ -4,6 +4,7 @@
 | [0647-palindromic-substrings](https://github.com/riteshakya037/leet-code-solutions/tree/master/0647-palindromic-substrings) |
 | [0142-linked-list-cycle-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0148-sort-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0148-sort-list) |
 
 
 # String
@@ -61,6 +62,7 @@
 | [0002-add-two-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0142-linked-list-cycle-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0148-sort-list) |
 # Math
 |  |
 | ------- |
@@ -77,6 +79,7 @@
 # Sorting
 |  |
 | ------- |
+| [0148-sort-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0148-sort-list) |
 | [0502-ipo](https://github.com/riteshakya037/leet-code-solutions/tree/master/0502-ipo) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/riteshakya037/leet-code-solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
 # Counting
@@ -87,3 +90,11 @@
 |  |
 | ------- |
 | [0502-ipo](https://github.com/riteshakya037/leet-code-solutions/tree/master/0502-ipo) |
+# Divide and Conquer
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0148-sort-list) |
+# Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0148-sort-list) |
