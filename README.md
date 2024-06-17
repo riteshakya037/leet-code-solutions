@@ -5,6 +5,7 @@
 | [0142-linked-list-cycle-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0148-sort-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0148-sort-list) |
+| [0633-sum-of-square-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/0633-sum-of-square-numbers) |
 
 
 # String
@@ -68,6 +69,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/0002-add-two-numbers) |
+| [0633-sum-of-square-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/0633-sum-of-square-numbers) |
 # Recursion
 |  |
 | ------- |
@@ -100,3 +102,7 @@
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0148-sort-list) |
+# Binary Search
+|  |
+| ------- |
+| [0633-sum-of-square-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/0633-sum-of-square-numbers) |
