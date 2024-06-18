@@ -2,22 +2,15 @@ class Solution:
     def maxProfitAssignment(
         self, difficulty: List[int], profit: List[int], worker: List[int]
     ) -> int:
-        max_difficulty = max(difficulty)
-        max_profit_up_to_difficulty = [0] * (max_difficulty + 1)
+        maxAbility = max(worker)
+        jobs = [0] * (maxAbility + 1)
 
-        for d, p in zip(difficulty, profit):
-            max_profit_up_to_difficulty[d] = max(max_profit_up_to_difficulty[d], p)
-
-        for i in range(1, max_difficulty + 1):
-            max_profit_up_to_difficulty[i] = max(
-                max_profit_up_to_difficulty[i], max_profit_up_to_difficulty[i - 1]
-            )
-
-        total_profit = 0
+        for i in range(len(difficulty)):
+            if difficulty[i] <= maxAbility:
+                jobs[difficulty[i]] = max(jobs[difficulty[i]], profit[i])
+        for i in range(1, maxAbility + 1):
+            jobs[i] = max(jobs[i], jobs[i - 1])
+        netProfit = 0
         for ability in worker:
-            if ability > max_difficulty:
-                total_profit += max_profit_up_to_difficulty[max_difficulty]
-            else:
-                total_profit += max_profit_up_to_difficulty[ability]
-
-        return total_profit
+            netProfit += jobs[ability]
+        return netProfit
