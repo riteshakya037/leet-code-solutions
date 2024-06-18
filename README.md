@@ -6,6 +6,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0148-sort-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0148-sort-list) |
 | [0633-sum-of-square-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/0633-sum-of-square-numbers) |
+| [0853-most-profit-assigning-work](https://github.com/riteshakya037/leet-code-solutions/tree/master/0853-most-profit-assigning-work) |
 
 
 # String
@@ -29,6 +30,7 @@
 | [0502-ipo](https://github.com/riteshakya037/leet-code-solutions/tree/master/0502-ipo) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/riteshakya037/leet-code-solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/riteshakya037/leet-code-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0853-most-profit-assigning-work](https://github.com/riteshakya037/leet-code-solutions/tree/master/0853-most-profit-assigning-work) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/riteshakya037/leet-code-solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
 # Binary Indexed Tree
 |  |
@@ -79,12 +81,14 @@
 | ------- |
 | [0330-patching-array](https://github.com/riteshakya037/leet-code-solutions/tree/master/0330-patching-array) |
 | [0502-ipo](https://github.com/riteshakya037/leet-code-solutions/tree/master/0502-ipo) |
+| [0853-most-profit-assigning-work](https://github.com/riteshakya037/leet-code-solutions/tree/master/0853-most-profit-assigning-work) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/riteshakya037/leet-code-solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
 # Sorting
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0148-sort-list) |
 | [0502-ipo](https://github.com/riteshakya037/leet-code-solutions/tree/master/0502-ipo) |
+| [0853-most-profit-assigning-work](https://github.com/riteshakya037/leet-code-solutions/tree/master/0853-most-profit-assigning-work) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/riteshakya037/leet-code-solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
 # Counting
 |  |
@@ -106,3 +110,4 @@
 |  |
 | ------- |
 | [0633-sum-of-square-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/0633-sum-of-square-numbers) |
+| [0853-most-profit-assigning-work](https://github.com/riteshakya037/leet-code-solutions/tree/master/0853-most-profit-assigning-work) |
