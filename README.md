@@ -32,6 +32,7 @@
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/riteshakya037/leet-code-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0853-most-profit-assigning-work](https://github.com/riteshakya037/leet-code-solutions/tree/master/0853-most-profit-assigning-work) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/riteshakya037/leet-code-solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/riteshakya037/leet-code-solutions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 # Binary Indexed Tree
 |  |
 | ------- |
@@ -111,3 +112,4 @@
 | ------- |
 | [0633-sum-of-square-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/riteshakya037/leet-code-solutions/tree/master/0853-most-profit-assigning-work) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/riteshakya037/leet-code-solutions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
