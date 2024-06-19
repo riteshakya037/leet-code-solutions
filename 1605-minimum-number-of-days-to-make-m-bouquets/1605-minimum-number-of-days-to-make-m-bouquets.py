@@ -1,19 +1,15 @@
 class Solution:
     def minDays(self, bloomDay: List[int], m: int, k: int) -> int:
-        def isValid(x):
-            total = 0
-            currcount = 0
-            for b in bloomDay:
-                if x >= b:
-                    currcount += 1
-                else:
-                    total += currcount // k
-                    if total >= m:
-                        return True
-                    currcount = 0
-            total += currcount // k
-            if total >= m:
-                return True
+        def isEnoughDays(days):
+            flowers, bouquets = 0, 0
+            for d in bloomDay:
+                flowers = flowers + 1 if d <= days else 0
+                if flowers == k:
+                    bouquets += 1
+                    if bouquets == m: break
+                    flowers = 0
+            
+            return bouquets == m
 
         if m * k > len(bloomDay):
             return -1
@@ -21,7 +17,7 @@ class Solution:
         right = max(bloomDay)
         while left < right:
             mid = left + (right - left) // 2
-            if isValid(mid):
+            if isEnoughDays(mid):
                 right = mid
             else:
                 left = mid + 1
