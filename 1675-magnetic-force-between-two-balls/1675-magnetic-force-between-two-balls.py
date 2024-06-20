@@ -4,7 +4,7 @@ class Solution:
         if m == 2:
             return position[-1] - position[0]
 
-        l, r = 1, position[-1] - position[0]
+        l, r = 1, (position[-1] - position[0]) // (m - 1)
 
         def canPlaceBalls(distance):
             count, last_position = 1, position[0]
