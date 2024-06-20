@@ -1,6 +1,9 @@
 class Solution:
     def maxDistance(self, position: List[int], m: int) -> int:
         position.sort()
+        if m == 2:
+            return position[-1] - position[0]
+
         l, r = 1, position[-1] - position[0]
 
         def canPlaceBalls(distance):
