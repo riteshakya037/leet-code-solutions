@@ -1,34 +1,33 @@
 class Solution:
-    def maxSatisfied(
-        self, customers: List[int], grumpy: List[int], minutes: int
-    ) -> int:
-        n = len(customers)
-        unrealized_customers = 0
+    def maxSatisfied(self, customers: List[int], grumpy: List[int], minutes: int) -> int:
+        total_satisfied = 0
 
-        # Calculate initial number of unrealized customers in first 'minutes' window
+        # Calculate the total satisfaction without using the grumpy window
+        for i in range(len(customers)):
+            if grumpy[i] == 0:
+                total_satisfied += customers[i]
+
+        # Calculate the initial window of size X
+        max_window_sum = 0
+        current_window_sum = 0
         for i in range(minutes):
-            unrealized_customers += customers[i] * grumpy[i]
+            if grumpy[i] == 1:
+                current_window_sum += customers[i]
 
-        max_unrealized_customers = unrealized_customers
+        max_window_sum = current_window_sum
 
-        # Slide the 'minutes' window across the rest of the customers array
-        for i in range(minutes, n):
-            # Add current minute's unsatisfied customers if the owner is grumpy
-            # and remove the customers that are out of the current window
-            unrealized_customers += customers[i] * grumpy[i]
-            unrealized_customers -= customers[i - minutes] * grumpy[i - minutes]
+        # Slide the window across the array
+        start = 1
+        end = minutes
 
-            # Update the maximum unrealized customers
-            max_unrealized_customers = max(
-                max_unrealized_customers, unrealized_customers
-            )
+        while end < len(customers):
+            if grumpy[start - 1] == 1:
+                current_window_sum -= customers[start - 1]
+            if grumpy[end] == 1:
+                current_window_sum += customers[end]
 
-        # Start with maximum possible satisfied customers due to secret technique
-        total_customers = max_unrealized_customers
+            max_window_sum = max(max_window_sum, current_window_sum)
+            start += 1
+            end += 1
 
-        # Add the satisfied customers during non-grumpy minutes
-        for i in range(n):
-            total_customers += customers[i] * (1 - grumpy[i])
-
-        # Return the maximum number of satisfied customers
-        return total_customers
+        return total_satisfied + max_window_sum
