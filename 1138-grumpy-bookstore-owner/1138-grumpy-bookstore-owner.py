@@ -1,33 +1,23 @@
 class Solution:
     def maxSatisfied(self, customers: List[int], grumpy: List[int], minutes: int) -> int:
-        total_satisfied = 0
-
-        # Calculate the total satisfaction without using the grumpy window
+        total_sum = 0
         for i in range(len(customers)):
             if grumpy[i] == 0:
-                total_satisfied += customers[i]
+                total_sum += customers[i]
 
-        # Calculate the initial window of size X
-        max_window_sum = 0
-        current_window_sum = 0
-        for i in range(minutes):
-            if grumpy[i] == 1:
-                current_window_sum += customers[i]
-
-        max_window_sum = current_window_sum
-
-        # Slide the window across the array
-        start = 1
-        end = minutes
+        satisfaction = total_sum
+        start = 0
+        end = start + minutes - 1
 
         while end < len(customers):
-            if grumpy[start - 1] == 1:
-                current_window_sum -= customers[start - 1]
-            if grumpy[end] == 1:
-                current_window_sum += customers[end]
+            temp_sum = 0
+            for i in range(start, end + 1):
+                if grumpy[i] == 1:
+                    temp_sum += customers[i]
 
-            max_window_sum = max(max_window_sum, current_window_sum)
+            satisfaction = max(satisfaction, total_sum + temp_sum)
+
             start += 1
             end += 1
 
-        return total_satisfied + max_window_sum
+        return satisfaction
