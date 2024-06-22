@@ -1,17 +1,22 @@
 class Solution:
     def numberOfSubarrays(self, nums: List[int], k: int) -> int:
-        res = 0
-        l = 0
-        n = 0
-        c = 0
-        for r in range(len(nums)):
-            if nums[r] % 2:
-                n += 1
-                c = 0
-            while n == k:
-                c += 1
-                if nums[l] % 2:
-                    n -= 1
-                l += 1
-            res += c
-        return res
+        odd_indices = []
+        subarrays = 0
+        last_popped = -1
+        initial_gap = -1
+
+        for i in range(len(nums)):
+            # If element is odd, append its index to the list.
+            if nums[i] % 2 == 1:
+                odd_indices.append(i)
+            # If the number of odd numbers exceeds k, remove the first odd index.
+            if len(odd_indices) > k:
+                last_popped = odd_indices[0]
+                odd_indices.pop(0)
+            # If there are exactly k odd numbers, add the number of even numbers
+            # in the beginning of the subarray to the result.
+            if len(odd_indices) == k:
+                initial_gap = odd_indices[0] - last_popped
+                subarrays += initial_gap
+
+        return subarrays
