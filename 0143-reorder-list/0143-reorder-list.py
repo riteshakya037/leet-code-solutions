@@ -14,16 +14,13 @@ class Solution:
         
         currentNode = head
         while len(queue) > 1: 
-            # Why? len(queue) > 1 : To avoid the empty queue.pops()
-            currentNode.next = queue.pop() # last node in the deque
+            currentNode.next = queue.pop()
             currentNode = currentNode.next
-            currentNode.next = queue.popleft() # first node in the deque
+            currentNode.next = queue.popleft()
             currentNode = currentNode.next
         
-        # Why?: if len(queue) is odd we will have a 1 node to add
         if queue:
             currentNode.next = queue.pop()
             currentNode = currentNode.next
         
-        # Why?: To avoid the cycle
         currentNode.next = None
