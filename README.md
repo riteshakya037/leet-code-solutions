@@ -7,6 +7,7 @@
 | [0148-sort-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0148-sort-list) |
 | [0633-sum-of-square-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/riteshakya037/leet-code-solutions/tree/master/0853-most-profit-assigning-work) |
+| [0143-reorder-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0143-reorder-list) |
 
 
 # String
@@ -72,6 +73,7 @@
 | [0002-add-two-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0142-linked-list-cycle-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0142-linked-list-cycle-ii) |
+| [0143-reorder-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0148-sort-list) |
 # Math
 |  |
@@ -83,6 +85,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/0002-add-two-numbers) |
+| [0143-reorder-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0143-reorder-list) |
 # Greedy
 |  |
 | ------- |
@@ -140,3 +143,7 @@
 |  |
 | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/riteshakya037/leet-code-solutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+# Stack
+|  |
+| ------- |
+| [0143-reorder-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0143-reorder-list) |
