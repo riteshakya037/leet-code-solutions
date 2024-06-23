@@ -5,22 +5,27 @@
 #         self.next = next
 class Solution:
     def reorderList(self, head: Optional[ListNode]) -> None:
-        slow = fast = head
+        queue = collections.deque()
+        currentNode = head.next
+
+        while currentNode:
+            queue.append(currentNode)
+            currentNode = currentNode.next
         
-        while fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next
-            
-        curr = slow
+        currentNode = head
+        while len(queue) > 1: 
+            # Why? len(queue) > 1 : To avoid the empty queue.pops()
+            currentNode.next = queue.pop() # last node in the deque
+            currentNode = currentNode.next
+            currentNode.next = queue.popleft() # first node in the deque
+            currentNode = currentNode.next
         
-        prev = None
+        # Why?: if len(queue) is odd we will have a 1 node to add
+        if queue:
+            currentNode.next = queue.pop()
+            currentNode = currentNode.next
         
-        while curr:
-            curr.next, prev, curr = prev, curr, curr.next 
-            
-        
-        first, second = head, prev
-        
-        while second.next:
-            first.next, first = second, first.next
-            second.next, second = first, second.next
+        # Why?: To avoid the cycle
+        currentNode.next = None
+
+        return head
