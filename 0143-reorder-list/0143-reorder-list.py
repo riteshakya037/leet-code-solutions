@@ -27,5 +27,3 @@ class Solution:
         
         # Why?: To avoid the cycle
         currentNode.next = None
-
-        return head
