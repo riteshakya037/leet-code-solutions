@@ -95,6 +95,7 @@
 | [0502-ipo](https://github.com/riteshakya037/leet-code-solutions/tree/master/0502-ipo) |
 | [0853-most-profit-assigning-work](https://github.com/riteshakya037/leet-code-solutions/tree/master/0853-most-profit-assigning-work) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/riteshakya037/leet-code-solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [2379-maximum-total-importance-of-roads](https://github.com/riteshakya037/leet-code-solutions/tree/master/2379-maximum-total-importance-of-roads) |
 # Sorting
 |  |
 | ------- |
@@ -103,6 +104,7 @@
 | [0853-most-profit-assigning-work](https://github.com/riteshakya037/leet-code-solutions/tree/master/0853-most-profit-assigning-work) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/riteshakya037/leet-code-solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1675-magnetic-force-between-two-balls](https://github.com/riteshakya037/leet-code-solutions/tree/master/1675-magnetic-force-between-two-balls) |
+| [2379-maximum-total-importance-of-roads](https://github.com/riteshakya037/leet-code-solutions/tree/master/2379-maximum-total-importance-of-roads) |
 # Counting
 |  |
 | ------- |
@@ -112,6 +114,7 @@
 | ------- |
 | [0502-ipo](https://github.com/riteshakya037/leet-code-solutions/tree/master/0502-ipo) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/riteshakya037/leet-code-solutions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [2379-maximum-total-importance-of-roads](https://github.com/riteshakya037/leet-code-solutions/tree/master/2379-maximum-total-importance-of-roads) |
 # Divide and Conquer
 |  |
 | ------- |
@@ -171,3 +174,7 @@
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/riteshakya037/leet-code-solutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Graph
+|  |
+| ------- |
+| [2379-maximum-total-importance-of-roads](https://github.com/riteshakya037/leet-code-solutions/tree/master/2379-maximum-total-importance-of-roads) |
