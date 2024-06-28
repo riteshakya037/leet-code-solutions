@@ -28,6 +28,7 @@
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/riteshakya037/leet-code-solutions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0330-patching-array](https://github.com/riteshakya037/leet-code-solutions/tree/master/0330-patching-array) |
 | [0416-partition-equal-subset-sum](https://github.com/riteshakya037/leet-code-solutions/tree/master/0416-partition-equal-subset-sum) |
+| [0417-pacific-atlantic-water-flow](https://github.com/riteshakya037/leet-code-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0502-ipo](https://github.com/riteshakya037/leet-code-solutions/tree/master/0502-ipo) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/riteshakya037/leet-code-solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/riteshakya037/leet-code-solutions/tree/master/0698-partition-to-k-equal-sum-subsets) |
@@ -168,6 +169,7 @@
 # Depth-First Search
 |  |
 | ------- |
+| [0417-pacific-atlantic-water-flow](https://github.com/riteshakya037/leet-code-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/riteshakya037/leet-code-solutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/riteshakya037/leet-code-solutions/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Search Tree
@@ -185,3 +187,11 @@
 | ------- |
 | [1916-find-center-of-star-graph](https://github.com/riteshakya037/leet-code-solutions/tree/master/1916-find-center-of-star-graph) |
 | [2379-maximum-total-importance-of-roads](https://github.com/riteshakya037/leet-code-solutions/tree/master/2379-maximum-total-importance-of-roads) |
+# Breadth-First Search
+|  |
+| ------- |
+| [0417-pacific-atlantic-water-flow](https://github.com/riteshakya037/leet-code-solutions/tree/master/0417-pacific-atlantic-water-flow) |
+# Matrix
+|  |
+| ------- |
+| [0417-pacific-atlantic-water-flow](https://github.com/riteshakya037/leet-code-solutions/tree/master/0417-pacific-atlantic-water-flow) |
