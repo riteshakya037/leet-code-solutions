@@ -183,4 +183,5 @@
 # Graph
 |  |
 | ------- |
+| [1916-find-center-of-star-graph](https://github.com/riteshakya037/leet-code-solutions/tree/master/1916-find-center-of-star-graph) |
 | [2379-maximum-total-importance-of-roads](https://github.com/riteshakya037/leet-code-solutions/tree/master/2379-maximum-total-importance-of-roads) |
