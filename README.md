@@ -95,6 +95,7 @@
 | [0502-ipo](https://github.com/riteshakya037/leet-code-solutions/tree/master/0502-ipo) |
 | [0853-most-profit-assigning-work](https://github.com/riteshakya037/leet-code-solutions/tree/master/0853-most-profit-assigning-work) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/riteshakya037/leet-code-solutions/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [1285-balance-a-binary-search-tree](https://github.com/riteshakya037/leet-code-solutions/tree/master/1285-balance-a-binary-search-tree) |
 | [2379-maximum-total-importance-of-roads](https://github.com/riteshakya037/leet-code-solutions/tree/master/2379-maximum-total-importance-of-roads) |
 # Sorting
 |  |
@@ -119,6 +120,7 @@
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0148-sort-list) |
+| [1285-balance-a-binary-search-tree](https://github.com/riteshakya037/leet-code-solutions/tree/master/1285-balance-a-binary-search-tree) |
 # Merge Sort
 |  |
 | ------- |
@@ -162,18 +164,22 @@
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/riteshakya037/leet-code-solutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/riteshakya037/leet-code-solutions/tree/master/1285-balance-a-binary-search-tree) |
 # Depth-First Search
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/riteshakya037/leet-code-solutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/riteshakya037/leet-code-solutions/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Search Tree
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/riteshakya037/leet-code-solutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/riteshakya037/leet-code-solutions/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Tree
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/riteshakya037/leet-code-solutions/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/riteshakya037/leet-code-solutions/tree/master/1285-balance-a-binary-search-tree) |
 # Graph
 |  |
 | ------- |
