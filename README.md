@@ -211,6 +211,7 @@
 |  |
 | ------- |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/riteshakya037/leet-code-solutions/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/riteshakya037/leet-code-solutions/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 ## Topological Sort
 |  |
 | ------- |
@@ -223,6 +224,7 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/riteshakya037/leet-code-solutions/tree/master/0200-number-of-islands) |
+| [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/riteshakya037/leet-code-solutions/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 ## Matrix
 |  |
 | ------- |
