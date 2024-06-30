@@ -1,45 +1,67 @@
-class UnionFind:
-    """A minimalist standalone union-find implementation."""
-
-    def __init__(self, n):
-        self.count = n  # number of disjoint sets
-        self.parent = list(range(n))  # parent of given nodes
-        self.rank = [1] * n  # rank (aka size) of sub-tree
-
-    def find(self, p):
-        """Find with path compression."""
-        if p != self.parent[p]:
-            self.parent[p] = self.find(self.parent[p])  # path compression
-        return self.parent[p]
-
-    def union(self, p, q):
-        """Union with ranking."""
-        prt, qrt = self.find(p), self.find(q)
-        if prt == qrt:
-            return False
-        self.count -= 1  # one more connection => one less disjoint
-        if self.rank[prt] > self.rank[qrt]:
-            prt, qrt = qrt, prt  # add small sub-tree to large sub-tree for balancing
-        self.parent[prt] = qrt
-        self.rank[qrt] += self.rank[prt]  # ranking
-        return True
-
-
 class Solution:
     def maxNumEdgesToRemove(self, n: int, edges: List[List[int]]) -> int:
-        ufa = UnionFind(n)  # for Alice
-        ufb = UnionFind(n)  # for Bob
+        # approach: build out the graph with all the type 3 edges (no cycles)
+        # for subsequent type 1 and 2 edges left, build out the 
+        # the graph until its fully connected
+        # the maximum number of edges we can remove is the number of 
+        # redundant edges during graph building + number of edges left
+        # after completing the graph
+        # cycle detection with disjoint set
 
-        ans = 0
-        edges.sort(reverse=True)
-        for t, u, v in edges:
-            u, v = u - 1, v - 1
-            if t == 3:
-                ans += not (ufa.union(u, v) and ufb.union(u, v))  # Alice & Bob
-            elif t == 2:
-                ans += not ufb.union(u, v)  # Bob only
-            else:
-                ans += not ufa.union(u, v)  # Alice only
-        return (
-            ans if ufa.count == 1 and ufb.count == 1 else -1
-        )  # check if uf is connected
+        alice_nodes = [-1] * (n + 1)
+        bob_nodes = [-1] * (n + 1)
+
+        def helper_find_parent(family, node):
+            if family[node] < 0:
+                return node
+            family[node] = helper_find_parent(family, family[node])
+            return family[node]
+
+        num_redundant_edges = 0
+
+        for typ, u, v in edges:
+            if typ == 3:
+                # add it to the graph if not redundant
+                p_u = helper_find_parent(alice_nodes, u)
+                p_v = helper_find_parent(alice_nodes, v)
+
+                if p_u != p_v:
+                    # we can safely join these two subsets
+                    alice_nodes[p_u] += alice_nodes[p_v]
+                    alice_nodes[p_v] = p_u
+                else:
+                    num_redundant_edges += 1
+        bob_nodes = alice_nodes.copy()
+        # now we build the graph for alice and bob perspectively
+        for typ, u, v in edges:
+            if typ == 1:
+                # add it to Alice's graph
+                # add it to the graph if not redundant
+                p_u = helper_find_parent(alice_nodes, u)
+                p_v = helper_find_parent(alice_nodes, v)
+
+                if p_u != p_v:
+                    # we can safely join these two subsets
+                    alice_nodes[p_u] += alice_nodes[p_v]
+                    alice_nodes[p_v] = p_u
+                else:
+                    num_redundant_edges += 1
+
+            if typ == 2:
+                # add it to Alice's graph
+                # add it to the graph if not redundant
+                p_u = helper_find_parent(bob_nodes, u)
+                p_v = helper_find_parent(bob_nodes, v)
+
+                if p_u != p_v:
+                    # we can safely join these two subsets
+                    bob_nodes[p_u] += bob_nodes[p_v]
+                    bob_nodes[p_v] = p_u
+                else:
+                    num_redundant_edges += 1
+        al = min(alice_nodes)
+        bl = min(bob_nodes)
+        if (al == bl and al == -1 * n):
+            return num_redundant_edges
+        else:
+            return -1
