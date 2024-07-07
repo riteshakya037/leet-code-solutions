@@ -230,4 +230,12 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/riteshakya037/leet-code-solutions/tree/master/0200-number-of-islands) |
+## Math
+|  |
+| ------- |
+| [1642-water-bottles](https://github.com/riteshakya037/leet-code-solutions/tree/master/1642-water-bottles) |
+## Simulation
+|  |
+| ------- |
+| [1642-water-bottles](https://github.com/riteshakya037/leet-code-solutions/tree/master/1642-water-bottles) |
 <!---LeetCode Topics End-->
