@@ -7,22 +7,26 @@ class Solution:
     def reverseBetween(
         self, head: Optional[ListNode], left: int, right: int
     ) -> Optional[ListNode]:
-        dummy = ListNode(0, head)
+        prev, cur = None, head
 
-        # 1) reach node at position "left"
-        leftPrev, cur = dummy, head
-        for i in range(left - 1):
-            leftPrev, cur = cur, cur.next
+        for _ in range(left - 1):
+            prev, cur = cur, cur.next
 
-        # Now cur="left", leftPrev="node before left"
-        # 2) reverse from left to right
-        prev = None
-        for i in range(right - left + 1):
-            tmpNext = cur.next
+        last_first_part = prev
+        last_second_part = cur
+
+        for _ in range(right - left + 1):
+            nxt = cur.next
             cur.next = prev
-            prev, cur = cur, tmpNext
+            prev, cur = cur, nxt
 
-        # 3) Update pointers
-        leftPrev.next.next = cur  # cur is node after "right"
-        leftPrev.next = prev  # prev is "right"
-        return dummy.next
+        first_second_part = prev
+
+        if last_first_part:
+            last_first_part.next = first_second_part
+        else:
+            head = first_second_part
+
+        last_second_part.next = cur
+
+        return head
