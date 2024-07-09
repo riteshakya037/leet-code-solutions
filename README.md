@@ -249,6 +249,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/riteshakya037/leet-code-solutions/tree/master/0024-swap-nodes-in-pairs) |
 | [0061-rotate-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0061-rotate-list) |
 | [0092-reverse-linked-list-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0092-reverse-linked-list-ii) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/riteshakya037/leet-code-solutions/tree/master/2299-merge-nodes-in-between-zeros) |
@@ -277,6 +278,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/riteshakya037/leet-code-solutions/tree/master/0024-swap-nodes-in-pairs) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/riteshakya037/leet-code-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
