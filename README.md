@@ -253,6 +253,7 @@
 | [0024-swap-nodes-in-pairs](https://github.com/riteshakya037/leet-code-solutions/tree/master/0024-swap-nodes-in-pairs) |
 | [0061-rotate-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0061-rotate-list) |
 | [0092-reverse-linked-list-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0092-reverse-linked-list-ii) |
+| [0328-odd-even-linked-list](https://github.com/riteshakya037/leet-code-solutions/tree/master/0328-odd-even-linked-list) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/riteshakya037/leet-code-solutions/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Hash Table
 |  |
