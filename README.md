@@ -228,6 +228,7 @@
 | [1720-crawler-log-folder](https://github.com/riteshakya037/leet-code-solutions/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/riteshakya037/leet-code-solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/riteshakya037/leet-code-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2846-robot-collisions](https://github.com/riteshakya037/leet-code-solutions/tree/master/2846-robot-collisions) |
 ## Union Find
 |  |
 | ------- |
@@ -250,6 +251,7 @@
 | [1803-average-waiting-time](https://github.com/riteshakya037/leet-code-solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/riteshakya037/leet-code-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/riteshakya037/leet-code-solutions/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2846-robot-collisions](https://github.com/riteshakya037/leet-code-solutions/tree/master/2846-robot-collisions) |
 ## Linked List
 |  |
 | ------- |
@@ -278,6 +280,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riteshakya037/leet-code-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/riteshakya037/leet-code-solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [2846-robot-collisions](https://github.com/riteshakya037/leet-code-solutions/tree/master/2846-robot-collisions) |
 ## Greedy
 |  |
 | ------- |
@@ -301,6 +304,7 @@
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/riteshakya037/leet-code-solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/riteshakya037/leet-code-solutions/tree/master/1720-crawler-log-folder) |
+| [2846-robot-collisions](https://github.com/riteshakya037/leet-code-solutions/tree/master/2846-robot-collisions) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
