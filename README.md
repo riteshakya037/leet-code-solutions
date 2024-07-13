@@ -219,6 +219,7 @@
 ## Array
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/riteshakya037/leet-code-solutions/tree/master/0056-merge-intervals) |
 | [0200-number-of-islands](https://github.com/riteshakya037/leet-code-solutions/tree/master/0200-number-of-islands) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/riteshakya037/leet-code-solutions/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -277,6 +278,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/riteshakya037/leet-code-solutions/tree/master/0056-merge-intervals) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riteshakya037/leet-code-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/riteshakya037/leet-code-solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
