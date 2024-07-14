@@ -266,6 +266,7 @@
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0726-number-of-atoms](https://github.com/riteshakya037/leet-code-solutions/tree/master/0726-number-of-atoms) |
 ## Two Pointers
 |  |
 | ------- |
@@ -283,6 +284,7 @@
 | [0056-merge-intervals](https://github.com/riteshakya037/leet-code-solutions/tree/master/0056-merge-intervals) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riteshakya037/leet-code-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0726-number-of-atoms](https://github.com/riteshakya037/leet-code-solutions/tree/master/0726-number-of-atoms) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/riteshakya037/leet-code-solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2846-robot-collisions](https://github.com/riteshakya037/leet-code-solutions/tree/master/2846-robot-collisions) |
 ## Greedy
@@ -301,11 +303,13 @@
 ## String
 |  |
 | ------- |
+| [0726-number-of-atoms](https://github.com/riteshakya037/leet-code-solutions/tree/master/0726-number-of-atoms) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/riteshakya037/leet-code-solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/riteshakya037/leet-code-solutions/tree/master/1720-crawler-log-folder) |
 ## Stack
 |  |
 | ------- |
+| [0726-number-of-atoms](https://github.com/riteshakya037/leet-code-solutions/tree/master/0726-number-of-atoms) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/riteshakya037/leet-code-solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/riteshakya037/leet-code-solutions/tree/master/1720-crawler-log-folder) |
 | [2846-robot-collisions](https://github.com/riteshakya037/leet-code-solutions/tree/master/2846-robot-collisions) |
