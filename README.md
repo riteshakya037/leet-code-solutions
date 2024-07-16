@@ -225,6 +225,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/riteshakya037/leet-code-solutions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riteshakya037/leet-code-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0435-non-overlapping-intervals](https://github.com/riteshakya037/leet-code-solutions/tree/master/0435-non-overlapping-intervals) |
 | [1028-interval-list-intersections](https://github.com/riteshakya037/leet-code-solutions/tree/master/1028-interval-list-intersections) |
 | [1293-three-consecutive-odds](https://github.com/riteshakya037/leet-code-solutions/tree/master/1293-three-consecutive-odds) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/riteshakya037/leet-code-solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -285,12 +286,14 @@
 | [0056-merge-intervals](https://github.com/riteshakya037/leet-code-solutions/tree/master/0056-merge-intervals) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riteshakya037/leet-code-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0435-non-overlapping-intervals](https://github.com/riteshakya037/leet-code-solutions/tree/master/0435-non-overlapping-intervals) |
 | [0726-number-of-atoms](https://github.com/riteshakya037/leet-code-solutions/tree/master/0726-number-of-atoms) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/riteshakya037/leet-code-solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2846-robot-collisions](https://github.com/riteshakya037/leet-code-solutions/tree/master/2846-robot-collisions) |
 ## Greedy
 |  |
 | ------- |
+| [0435-non-overlapping-intervals](https://github.com/riteshakya037/leet-code-solutions/tree/master/0435-non-overlapping-intervals) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/riteshakya037/leet-code-solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 ## Recursion
 |  |
@@ -328,4 +331,8 @@
 |  |
 | ------- |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/riteshakya037/leet-code-solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0435-non-overlapping-intervals](https://github.com/riteshakya037/leet-code-solutions/tree/master/0435-non-overlapping-intervals) |
 <!---LeetCode Topics End-->
