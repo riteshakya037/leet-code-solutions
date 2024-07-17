@@ -201,6 +201,7 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/riteshakya037/leet-code-solutions/tree/master/0200-number-of-islands) |
+| [1207-delete-nodes-and-return-forest](https://github.com/riteshakya037/leet-code-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/riteshakya037/leet-code-solutions/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/riteshakya037/leet-code-solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Breadth-First Search
@@ -227,6 +228,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riteshakya037/leet-code-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0435-non-overlapping-intervals](https://github.com/riteshakya037/leet-code-solutions/tree/master/0435-non-overlapping-intervals) |
 | [1028-interval-list-intersections](https://github.com/riteshakya037/leet-code-solutions/tree/master/1028-interval-list-intersections) |
+| [1207-delete-nodes-and-return-forest](https://github.com/riteshakya037/leet-code-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/riteshakya037/leet-code-solutions/tree/master/1293-three-consecutive-odds) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/riteshakya037/leet-code-solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1720-crawler-log-folder](https://github.com/riteshakya037/leet-code-solutions/tree/master/1720-crawler-log-folder) |
@@ -269,6 +271,7 @@
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/riteshakya037/leet-code-solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/riteshakya037/leet-code-solutions/tree/master/0726-number-of-atoms) |
+| [1207-delete-nodes-and-return-forest](https://github.com/riteshakya037/leet-code-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 ## Two Pointers
 |  |
 | ------- |
@@ -326,10 +329,12 @@
 ## Tree
 |  |
 | ------- |
+| [1207-delete-nodes-and-return-forest](https://github.com/riteshakya037/leet-code-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/riteshakya037/leet-code-solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Binary Tree
 |  |
 | ------- |
+| [1207-delete-nodes-and-return-forest](https://github.com/riteshakya037/leet-code-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/riteshakya037/leet-code-solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Dynamic Programming
 |  |
