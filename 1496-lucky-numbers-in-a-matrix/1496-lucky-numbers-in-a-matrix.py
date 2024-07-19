@@ -1,19 +1,23 @@
 class Solution:
-    def luckyNumbers(self, matrix: list[list[int]]) -> list[int]:
-        rows: int = len(matrix)
-        cols: int = len(matrix[0])
+    def luckyNumbers(self, matrix: List[List[int]]) -> List[int]:
 
-        row_maximum_of_minimums: int = 0
-        for row in matrix:
-            row_maximum_of_minimums = max(min(row), row_maximum_of_minimums)
+        R = len(matrix)
+        C = len(matrix[0])
+        numIdxMap = {}
+        result = []
 
-        col_minimum_of_maximums: int = 10**5 + 1
-        for col_ind in range(cols):
-            col_maximum = max([matrix[row_ind][col_ind] for row_ind in range(rows)])
-            col_minimum_of_maximums = min(col_maximum, col_minimum_of_maximums)
+        for i in range(R):
+            row = matrix[i]
+            minColIdx = row.index(min(matrix[i]))
+            minValInRow = matrix[i][minColIdx]
+            isLuckyNum = True
 
-        return (
-            [col_minimum_of_maximums]
-            if row_maximum_of_minimums == col_minimum_of_maximums
-            else []
-        )
+            for r in range(R):
+                if r != i and matrix[r][minColIdx] > minValInRow:
+                    isLuckyNum = False
+                    break
+
+            if isLuckyNum:
+                result.append(minValInRow)
+
+        return result
