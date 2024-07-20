@@ -1,30 +1,21 @@
 class Solution:
     def restoreMatrix(self, rowSum: List[int], colSum: List[int]) -> List[List[int]]:
-        rows: int = len(rowSum)
-        cols: int = len(colSum)
-        cur_row: int = 0
-        cur_col: int = 0
-        res: list[list[int]] = [[0 for _ in range(cols)] for _ in range(rows)]
+        col_sum = colSum
+        row_sum = rowSum
 
-        while cur_row < rows or cur_col < cols:
-            if cur_row >= rows:
-                res[rows - 1][cur_col] = colSum[cur_col]
-                cur_col += 1
-                continue
-            elif cur_col >= cols:
-                res[cur_row][cols - 1] = rowSum[cur_row]
-                cur_row += 1
-                continue
+        mat = [[0] * len(col_sum) for i in range(len(row_sum))]
+        i = 0
+        j = 0
+        while i < len(row_sum) and j < len(col_sum):
+            mat[i][j] = min(row_sum[i], col_sum[j])
+            if row_sum[i] == col_sum[j]:
+                i += 1
+                j += 1
+            elif row_sum[i] > col_sum[j]:
+                row_sum[i] -= col_sum[j]
+                j += 1
+            else:
+                col_sum[j] -= row_sum[i]
+                i += 1
 
-            value_to_put: int = min(rowSum[cur_row], colSum[cur_col])
-            rowSum[cur_row] -= value_to_put
-            colSum[cur_col] -= value_to_put
-            res[cur_row][cur_col] = value_to_put
-
-            # I write this as this because it's possible that rowSum[cur_row] == colSum[cur_col] and we'll want to move both row and col pointers
-            if rowSum[cur_row] == 0:
-                cur_row += 1
-            if colSum[cur_col] == 0:
-                cur_col += 1
-
-        return res
+        return mat
