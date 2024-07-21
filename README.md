@@ -215,10 +215,12 @@
 | ------- |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/riteshakya037/leet-code-solutions/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/riteshakya037/leet-code-solutions/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
+| [2472-build-a-matrix-with-conditions](https://github.com/riteshakya037/leet-code-solutions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Topological Sort
 |  |
 | ------- |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/riteshakya037/leet-code-solutions/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2472-build-a-matrix-with-conditions](https://github.com/riteshakya037/leet-code-solutions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Array
 |  |
 | ------- |
@@ -237,6 +239,7 @@
 | [1720-crawler-log-folder](https://github.com/riteshakya037/leet-code-solutions/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/riteshakya037/leet-code-solutions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/riteshakya037/leet-code-solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2472-build-a-matrix-with-conditions](https://github.com/riteshakya037/leet-code-solutions/tree/master/2472-build-a-matrix-with-conditions) |
 | [2846-robot-collisions](https://github.com/riteshakya037/leet-code-solutions/tree/master/2846-robot-collisions) |
 ## Union Find
 |  |
@@ -250,6 +253,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riteshakya037/leet-code-solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/riteshakya037/leet-code-solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/riteshakya037/leet-code-solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [2472-build-a-matrix-with-conditions](https://github.com/riteshakya037/leet-code-solutions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Math
 |  |
 | ------- |
