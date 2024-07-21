@@ -2,45 +2,32 @@ class Solution:
     def buildMatrix(
         self, k: int, rowConditions: List[List[int]], colConditions: List[List[int]]
     ) -> List[List[int]]:
-
-        def order(conditions):
-            adj = [[] for _ in range(k + 1)]
-            deg = [0] * (k + 1)
-            for u, v in conditions:
-                adj[u].append(v)
-                deg[v] += 1
-
-            s = []
-            for u, d in enumerate(deg):
-                if u and d == 0:
-                    s.append(u)
-
+        def f(cond):
+            g = defaultdict(list)
+            indeg = [0] * (k + 1)
+            for a, b in cond:
+                g[a].append(b)
+                indeg[b] += 1
+            q = deque([i for i, v in enumerate(indeg[1:], 1) if v == 0])
             res = []
-            while s:
-                u = s.pop()
-                res.append(u)
-                for v in adj[u]:
-                    deg[v] -= 1
-                    if deg[v]:
-                        continue
-                    s.append(v)
+            while q:
+                for _ in range(len(q)):
+                    i = q.popleft()
+                    res.append(i)
+                    for j in g[i]:
+                        indeg[j] -= 1
+                        if indeg[j] == 0:
+                            q.append(j)
+            return None if len(res) != k else res
 
-            if any(deg):
-                return []
-            return res
-
-        row = order(rowConditions)
-        col = order(colConditions)
-
-        col = {x: i for i, x in enumerate(col)}
-        res = [[0] * k for _ in range(k)]
-        for i, x in enumerate(row):
-            if x not in col:
-                break
-            j = col[x]
-            res[i][j] = x
-
-        for r in res:
-            if not any(r):
-                return []
-        return res
+        row = f(rowConditions)
+        col = f(colConditions)
+        if row is None or col is None:
+            return []
+        ans = [[0] * k for _ in range(k)]
+        m = [0] * (k + 1)
+        for i, v in enumerate(col):
+            m[v] = i
+        for i, v in enumerate(row):
+            ans[i][m[v]] = v
+        return ans
