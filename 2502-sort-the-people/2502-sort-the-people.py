@@ -3,6 +3,5 @@ class Solution:
         d = {}
         descend = [""] * len(names)
         d = dict(zip(heights, names))
-
-        h = sorted(heights)
-        return [d[height] for height in h[::-1]]
+        h = sorted(heights, reverse=True)
+        return [d[height] for height in h]
