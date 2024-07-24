@@ -234,6 +234,7 @@
 | [1028-interval-list-intersections](https://github.com/riteshakya037/leet-code-solutions/tree/master/1028-interval-list-intersections) |
 | [1207-delete-nodes-and-return-forest](https://github.com/riteshakya037/leet-code-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/riteshakya037/leet-code-solutions/tree/master/1293-three-consecutive-odds) |
+| [1333-sort-the-jumbled-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/riteshakya037/leet-code-solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/riteshakya037/leet-code-solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/riteshakya037/leet-code-solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -307,6 +308,7 @@
 | [0435-non-overlapping-intervals](https://github.com/riteshakya037/leet-code-solutions/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/riteshakya037/leet-code-solutions/tree/master/0621-task-scheduler) |
 | [0726-number-of-atoms](https://github.com/riteshakya037/leet-code-solutions/tree/master/0726-number-of-atoms) |
+| [1333-sort-the-jumbled-numbers](https://github.com/riteshakya037/leet-code-solutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/riteshakya037/leet-code-solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/riteshakya037/leet-code-solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/riteshakya037/leet-code-solutions/tree/master/2502-sort-the-people) |
